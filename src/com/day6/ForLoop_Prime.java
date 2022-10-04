@@ -10,7 +10,7 @@ public class ForLoop_Prime {
 		int i;
 		for( i=2;i<=num;i++) {
 			
-		if(num%i==2) {
+		if(num%i==0) {
 			System.out.println("prime");
 		}
 		else {

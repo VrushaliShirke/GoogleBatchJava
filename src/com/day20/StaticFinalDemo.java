@@ -8,14 +8,14 @@ public class StaticFinalDemo {
 		x=78;
 		y=45;
 	}
-	void put() {
-		
-	}
+//	void put() {
+//		
+//	}
 	void show() {
 		System.out.println("x "+x);
 	}
 	public static void main(String[] args) {
-		FinalDemo d= new FinalDemo();
+		StaticFinalDemo d= new StaticFinalDemo();
 		d.show();
 
 	}

@@ -9,7 +9,7 @@ class Vehical{
 //		return s;
 //	}
 	
-	public Number salary();{
+	public Number salary(){
 		return 23000;
 	}
 }
@@ -26,13 +26,18 @@ class Car extends Vehical{
 //	}
 	
 	public Float salary() {
+		
 		return 423.43f;
+	}
+	void msg() {
+		System.out.println("Hello");
 	}
 }
 public class CoverientDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		new Car().msg();
+		
 
 	}
 

@@ -22,7 +22,7 @@ class AC{
 		branch();
 	}
 	public void branch() {
-		if(branch.eq) {
+		if() {
 			System.out.println("Your account details are:");
 		}
 		else {
