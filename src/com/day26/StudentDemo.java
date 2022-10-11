@@ -25,12 +25,13 @@ public class StudentDemo {
 			String name=sc.next();
 			System.out.println("Enter the marks: ");
 			int marks=sc.nextInt();
-			
 			st[i]= new Student(sid,name,marks);
 			
-			for(Student s:st) {
-				System.out.println(s);
-			}
+		}
+		
+		
+		for(Student s:st) {
+			System.out.println(s);
 		}
 	}
 

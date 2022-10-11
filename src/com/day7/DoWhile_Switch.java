@@ -31,6 +31,7 @@ public class DoWhile_Switch {
 		
 		System.out.println("Do you want to continue?");
 		ch= sc.next().charAt(0);
+		
 		} while(ch=='y' || ch=='Y');
 			
 		sc.close();

@@ -16,7 +16,7 @@ public class ReverseArray {
 
 	public static void main(String[] args) {
 		
-		int a[]= {5,6,2,3};
+		int a[]= {5,6,2,3,9,1};
 		System.out.println(Arrays.toString(a));
 		reverseArray(a);
 	}

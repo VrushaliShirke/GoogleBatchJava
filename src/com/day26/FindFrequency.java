@@ -1,10 +1,10 @@
 package com.day26;
 
 public class FindFrequency {
-	public static int[] findFreq(int a[]) {
-		
+	public static int findFreq(int a[]) {
+		int count=1;
 		for(int i=0;i<a.length;i++) {
-			int count=1;
+			
 		boolean isVisited=false;
 		for(int k=i-1;k>=0;k--) {
 			if(a[i]==a[k]) {
@@ -22,7 +22,7 @@ public class FindFrequency {
 		}
 		
 		}
-		return a;
+		return count;
 	}
 
 	public static void main(String[] args) {
